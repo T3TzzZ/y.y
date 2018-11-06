@@ -1,0 +1,525 @@
+
+.screen-banner {
+    overflow: hidden;
+    position: relative;
+}
+
+.all-screen {
+    /*top: 50px;*/
+    position: absolute;
+    transition: top 0.5s;
+}
+.all-screen .screen-one{
+    /*position: absolute;*/
+    /*top: 50px;*/
+}
+header{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 50px;
+    background: url("img/beader_bg.jpg");
+}
+.inner{
+    width: 1100px;
+    margin: auto;
+}
+header .inner{
+    position: relative;
+}
+header .logo{
+    position: absolute;
+    /*top: 6px;*/
+    left: 0;
+}
+header .nav{
+    padding-right: 300px;
+}
+header .nav li{
+    float: left;
+    margin-right: 30px;
+    cursor: pointer;
+    position: relative;
+}
+header .nav li span{
+    font-size: 12px;
+    color: white;
+    line-height: 50px;
+    font-family: "微软雅黑";
+}
+header .nav li .dian{
+    width: 4px;
+    height: 4px;
+    border-radius: 3px;
+    background: #fff;
+    position: absolute;
+    /*bottom: 8px;*/
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+}
+
+.describe .cont .welcome{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40px;
+    margin: auto;
+}
+.describe .cont .title{
+    position: absolute;
+    top: 410px;
+    width: 100%;
+}
+.describe .cont .title p:first-of-type{
+    font-size: 38px;
+    color: #fff;
+    font-family: 楷体;
+    font-weight: 400;
+    text-align: center;
+}
+.describe .cont .title p:nth-of-type(2){
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 400;
+}
+.describe .cont .text_up{
+    position: absolute;
+    top: 480px;
+    left: 510px;
+}
+.describe .cont .text_up p{
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+    font-family: 楷体;
+
+}
+em{
+    display: block;
+    width: 58px;
+    height: 58px;
+    background: url("img/donext.png") 0 -58px no-repeat;
+}
+.describe .next{
+    position: fixed;
+    bottom: 30px;
+    left: 650px;
+}
+.describe .next:hover em{
+    background-position: 0 0;
+}
+.all_in{
+    padding-top: 20px;
+    position: relative;
+}
+.all_in .tab .title{
+    width: 110px;
+    margin: auto;
+    padding-top: 43px;
+    padding-bottom: 30px;
+}
+.all_in .tab .pics>li{
+    display: none;
+}
+.all_in .tab .pics li.now{
+    display: block;
+}
+.all_in .tab h2{
+    font-size: 43px;
+    margin: auto;
+    letter-spacing: 3px;
+    font-family: 楷体;
+}
+
+.all_in .tab .text{
+    width: 780px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    line-height: 24px;
+}
+.all_in .tab .text p{
+    font-size: 14px;
+    font-family: 楷体 ;
+}
+.all_in .tab .app{
+    width: 820px;
+    margin: auto;
+}
+.all_in .tab .app li{
+    float: left;
+    margin-right: 12px;
+}
+.all_in .tab .tab_cont .up{
+    width: 502px;
+    height: 38px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.all_in .tab .tab_two .cont{
+    width: 610px;
+    margin: auto;
+}
+.all_in .tab .tab_two .cont li{
+    position: relative;
+    margin-bottom: 40px;
+}
+.all_in .tab .tab_two .cont li img{
+    vertical-align: middle;
+}
+.all_in .tab .tab_two .cont .we{
+    position: absolute;
+    top: 50px;
+    left: 110px;
+}
+.all_in .tab .tab_two .cont p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 仿宋;
+    font-weight: 600;
+}
+.all_in .tab .tab_three .title{
+    width: 350px;
+    padding: 0;
+    /*margin-top: 20px;*/
+    position: relative;
+
+}
+.all_in .tab .tab_three .title h3{
+    font-size: 37px;
+    font-weight: 500;
+    font-family: 楷体;
+}
+.all_in .tab .tab_three .text{
+    width: 650px;
+    margin: auto;
+    padding-top: 30px;
+}
+.all_in .tab .tab_three .text p{
+    text-indent: 2em;
+    font-size: 15px;
+    line-height: 27px;
+    font-family: 宋体;
+}
+.all_in .tab .tab_three .bottom{
+    width: 104px;
+    margin: auto;
+    padding-top: 30px;
+}
+.all_in .tab .toLeft{
+    position: absolute;
+    left: 100px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    width: 58px;
+    height: 58px;
+    background: url("img/goleft.png")0 0;
+}
+.all_in .tab .toLeft:hover{
+    background-position: -58px 0;
+}
+.all_in .tab .toRight{
+    position: absolute;
+    right: 100px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    width: 58px;
+    height: 58px;
+    background: url("img/goright.png")-58px 0;
+}
+.all_in .tab .toRight:hover{
+    background-position: 0 0;
+}
+.value{
+    overflow: hidden;
+    position: relative;
+    /*padding-top: 140px;*/
+}
+.value h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 楷体;
+    color: #fff;
+    margin-top: 140px;
+}
+.value .cont{
+    margin-top: 30px;
+    width: 760px;
+    position: relative;
+    height: 300px;
+    margin-left: 310px;
+    padding-top: 20px;
+}
+.value .cont .one{
+    width: 20px;
+    height: 20px;
+    background: url("img/jiazhi_border_11.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    transition: 1s;
+}
+.value .cont:hover .one{
+    background: url("img/jiazhi_border_12.png");
+}
+.value .cont .two{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: url("img/jiazhi_border_21.png");
+    cursor: pointer;
+    transition: 1s;
+
+}
+.value .cont:hover .two{
+    background: url("img/jiazhi_border_22.png");
+}
+.value .cont .three{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url("img/jiazhi_border_31.png");
+    cursor: pointer;
+    transition: 1s;
+
+}
+.value .cont:hover .three{
+    background: url("img/jiazhi_border_32.png");
+}
+.value .cont .four{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: url("img/jiazhi_border_41.png");
+    cursor: pointer;
+    transition: 1s;
+
+}
+.value .cont:hover .four{
+    background: url("img/jiazhi_border_42.png");
+}
+.value .cont ul li{
+    float: left;
+    margin-right: 40px;
+    padding-left: 50px;
+    margin-bottom: 26px;
+}
+.value .cont ul li:last-of-type{
+    margin-right: 0;
+}
+.value .cont ul li .num{
+    line-height: 74px;
+    text-align: center;
+
+    /*position: relative;*/
+    width: 74px;
+    height: 74px;
+    background: url("img/jiazhi_quanquan.png");
+}
+.value .cont ul li .num span{
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+.value .cont ul li .text{
+    width: 200px;
+}
+.value .cont ul li .text p{
+    color: #fff;
+    font-size: 14px;
+    padding-left: 18px;
+    font-family: 楷体;
+    margin-top: 19px;
+}
+.bird .title{
+    width: 200px;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+.bird .title h2{
+    font-size: 44px;
+    font-family: 楷体;
+
+}
+.bird .cont{
+    width: 770px;
+    margin: auto;
+}
+.bird ul li{
+    height: 27px;
+    border-bottom: 1px dashed rgba(0,0,0,.3);
+}
+.bird .cont .tab ul{
+    display: none;
+}
+.bird .cont .tab ul.now{
+    display: block;
+}
+.bird ul li p{
+    font-size: 14px;
+    line-height: 34px;
+}
+.bird{
+    position: relative;
+}
+.bird .bottom{
+    width: 200px;
+    margin: auto;
+    position: absolute;
+    bottom: 100px;
+    left: 580px;
+}
+.bird .bottom li{
+    cursor: pointer;
+    width: 78px;
+    float: left;
+    height: 8px;
+    border-bottom: none;
+    margin-right: 22px;
+    background: url("img/xiaoniaoyun_btn.png") 0 -8px;
+}
+.bird .bottom li.now{
+    background-position: 0 0;
+}
+
+.download{
+    position: relative;
+    /*padding-top: 80px;*/
+    width: 1366px;
+    height: 701px;
+    background: url("img/app&contacts_bg.gif") center;
+}
+.download .er{
+    width: 317px;
+    height: 315px;
+    position: absolute;
+    left:200px;
+    top: 80px;
+}
+.download .er .one{
+    width: 20px;
+    height: 20px;
+    background: url("img/jiazhi_border_11.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    transition: 1s;
+}
+.download .er:hover .one{
+    background: url("img/jiazhi_border_12.png");
+}
+.download .er .two{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: url("img/jiazhi_border_21.png");
+    cursor: pointer;
+    transition: 1s;
+
+}
+.download .er:hover .two{
+    background: url("img/jiazhi_border_22.png");
+}
+.download .er .three{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url("img/jiazhi_border_31.png");
+    cursor: pointer;
+    transition: 1s;
+
+}
+.download .er:hover .three{
+    background: url("img/jiazhi_border_32.png");
+}
+.download .er .four{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: url("img/jiazhi_border_41.png");
+    cursor: pointer;
+    transition: 1s;
+
+}
+.download .er:hover .four{
+    background: url("img/jiazhi_border_42.png");
+}
+.download .er .p{
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.download .er .p p{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+.download .dl{
+    position: absolute;
+    top: 200px;
+    left: 520px;
+    font-size: 34px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.download .dl:hover{
+    text-decoration: underline;
+}
+.download .kefu{
+    position: absolute;
+    top: 380px;
+    left: 690px;
+}
+.download .kefu h3 a{
+    font-size: 27px;
+    font-family: 楷体;
+    letter-spacing: 2px;
+}
+.download .kefu h3 a:hover{
+    text-decoration: underline;
+}
+.download .kefu p{
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.wel{
+    position: absolute;
+    /*display: none;*/
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #299AD6;
+    z-index:100;
+}
+.wel_text,#wel_title{
+    display: none;
+}
+

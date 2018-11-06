@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input{
+    /*outline: none; 去掉表单颜色*/
+    /*border: none;去掉边框*/
+
+}
+/*在IE低级版本中引入的图片 自带边框*/
+img{
+    border: none;
+}
+.clear{
+    clear: both;
+}
+.clear::before,.clear::after{
+  content: '';
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
